@@ -1,4 +1,5 @@
 import igraph as ig
+import igraph as ig
 import pandas as pd
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
