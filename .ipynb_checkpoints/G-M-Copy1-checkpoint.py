@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 centralidadels=()
-def desglobal(graph,metric_values,filename="graph_global.png",layout_type="fr",min_size=20,max_size=80,use_communities=True,show_labels=True):
+def desglobal(graph,metric_values,filename="graph_global.png",layout_type="fr",min_size=20,max_size=80,use_communities=True,show_labels=True)
     
 
     #calculando tamanho dos nodos
@@ -58,6 +58,7 @@ print(f"Detectadas {len(communities)} comunidades")
 betweenness=g.betweenness()
 g.vs["betweenness"]=betweenness
 
+top_bet
 
 # 5. Selecionar top 100 nós por PageRank
 top_100_ids = sorted(range(len(pagerank)), key=lambda i: pagerank[i], reverse=True)[:100]
